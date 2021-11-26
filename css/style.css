@@ -22,17 +22,48 @@ main {
 
 .sand {
     background-color: #e1d67a;
-    height: 30%;
+    height: 40%;
     margin-bottom: 20px;
 }
 
 .blue {
     background-color: #0087ff;
-    height: 40%;
+    height: 60%;
     margin-bottom: 10px;
 }
 
 .purple {
     background-color: #8801fe;
     height: 10%;
+    margin-top: 10px;
 }
+
+.blue .inner-header {
+    background-color: #abcfe7;
+    height: 20%;
+}
+
+.content {
+    float: left;
+}
+
+.left-aside, .right-aside {
+    background-color: #abcfe7;
+    height: 80%;
+    width: 24%;
+    margin: 10px 0px;
+}
+
+.blue .center-section {
+    background-color: #abcfe7;
+    height: 80%;
+    width: 50%;
+    margin: 10px;
+}
+
+.blue::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
