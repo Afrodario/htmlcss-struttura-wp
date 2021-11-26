@@ -1,3 +1,4 @@
+/* Regole generali */
 * {
     margin: 0;
     padding: 0;
@@ -13,13 +14,17 @@ html, body {
 main {
     height: 100%;
 }
+/* Fine regole generali */
 
+/* Stile dell'header */
 .pink {
     background-color: #e579e6;
     height: 20%;
     margin-bottom: 20px;
 }
+/* Fine stile dell'header */
 
+/* Stile del main */
 .sand {
     background-color: #e1d67a;
     height: 40%;
@@ -28,16 +33,20 @@ main {
 
 .blue {
     background-color: #0087ff;
-    height: 60%;
-    margin-bottom: 10px;
+    height: 56%;
+    margin-bottom: 15px;
 }
+/* Fine stile del main */
 
+/* Stile del footer */
 .purple {
     background-color: #8801fe;
     height: 10%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
+/* Fine stile del footer */
 
+/* Stile di aside e blocco centrale */
 .blue .inner-header {
     background-color: #abcfe7;
     height: 20%;
@@ -49,18 +58,21 @@ main {
 
 .left-aside, .right-aside {
     background-color: #abcfe7;
-    height: 80%;
+    height: 72%;
     width: 24%;
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 
 .blue .center-section {
     background-color: #abcfe7;
-    height: 80%;
+    height: 72%;
     width: 50%;
     margin: 10px;
+    margin-top: 15px;
 }
+/* Fine stile di aside e blocco centrale */
 
+/* Clearfix */
 .blue::after {
     content: "";
     display: table;
